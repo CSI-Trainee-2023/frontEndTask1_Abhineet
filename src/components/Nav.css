@@ -91,4 +91,29 @@
   .textSpace input:focus {
     outline: none;
   }
-  
+  .info{
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    color: #00000080;
+
+  }
+  .shipping{
+    display: flex;
+    gap:.6vw;
+    
+  }
+  .refundText{
+    margin-top: .7rem;
+  }
+  .supportText{
+    width: 120%;
+    margin-top: .7rem;
+  }
+  .shippingText{
+    width: 120%;
+    margin-top: .7rem;
+  }

@@ -5,6 +5,9 @@ import logo from '../assets/logo.svg';
 import cart from '../assets/cart.svg';
 import profile from '../assets/profile.svg';
 import search from '../assets/search.svg';
+import truck from '../assets/truck.svg';
+import refund from '../assets/refund.svg';
+import support from '../assets/support.svg';
 
 googleFonts.add({ Roboto: ['300', '400', '700'] });
 const Navbar = () => {
@@ -43,7 +46,19 @@ const Navbar = () => {
             </div>
             <button id="search">Search</button>
         </div>
-        <div>
+        <div className='info'>
+            <div className='shipping'>
+                <img src={truck}  />
+                <div className="shippingText">FREE SHIPPING</div>
+            </div>
+            <div className="shipping">
+                <img src={refund}  />
+                <div className="refundText">100% REFUND</div>
+            </div>
+            <div className="shipping">
+                <img src={refund}  />
+                <div className="supportText">SUPPORT 24*7</div>
+            </div>
             
         </div>
     </div>
