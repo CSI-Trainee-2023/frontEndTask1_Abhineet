@@ -1,0 +1,26 @@
+.footContainer{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a032a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    gap: 4rem;
+    
+    
+
+}
+.moreLinks{
+    margin-top: 1rem;
+}
+.brandContent{
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+.moreLinks{
+    font-weight: 400;
+    color: #FFFFFF80;
+}

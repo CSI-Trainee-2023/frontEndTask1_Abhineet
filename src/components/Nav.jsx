@@ -17,7 +17,7 @@ const Navbar = () => {
          <div className='head'>
             <div className='headLeft'>
                 <img src={logo}/>
-                <div className='brandName'>Brand Name</div>
+                <div className='brandName'>BRAND NAME</div>
             </div>
             <div className='headRight'>
                 <img src={cart}/>
@@ -56,8 +56,8 @@ const Navbar = () => {
                 <div className="refundText">100% REFUND</div>
             </div>
             <div className="shipping">
-                <img src={refund}  />
-                <div className="supportText">SUPPORT 24*7</div>
+                <img src={support}  />
+                <div className="supportText">SUPPORT 24/7</div>
             </div>
             
         </div>
