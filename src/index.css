@@ -1,8 +1,66 @@
 
 body {
   background-color: #f3f6ff;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0%;
   padding: 0%;
+}
+.slideImageContainer{
+  background-color: #f9d370;
+  margin:1vw 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.slideimg1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nonHItemContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.vintageChair{
+  display: flex;
+  flex-wrap: wrap; 
+  background-color:#ffffff;
+  width: 35rem;
+  margin: 3rem;
+  padding: 0;
+  margin: 0;
+
+}
+.terracotta{
+  display: flex;
+  flex-wrap: wrap; 
+  background-color:#f4f4f2;
+  width: 35rem;
+  margin: 3rem;
+  padding: 0;
+  margin: 0;
+
+}
+.vintageChairText{
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+}
+.headtext{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #323334;
+}
+#viewDetail{
+  border: 0;
+  background-color: #4c8787;
+  color: #F3F6FF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
 }

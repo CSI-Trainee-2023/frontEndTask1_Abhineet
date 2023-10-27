@@ -17,6 +17,7 @@
 }
 .navbar-items{
     display: flex;
+    flex-wrap: wrap;
     gap:6vw;
     align-items: center;
     justify-content: center;
@@ -24,28 +25,32 @@
 }
 .head{
     display: flex;
-    gap: 60vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     margin:0 5vw;
 }
 .headLeft{
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 2vw;
 }
 .headRight{
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 2vw;
 }
 .brandName{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.7rem;
-    width: 15rem;
     margin-top: 1rem;
 
 }
 .container {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
@@ -66,6 +71,7 @@
   
   .searchBar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 2rem 0;
     padding: 0 1.5rem;
@@ -78,6 +84,7 @@
   .textSpace {
     width: 100%;
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
   }
@@ -96,6 +103,7 @@
   .info{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -105,17 +113,21 @@
   }
   .shipping{
     display: flex;
-    gap:.6vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
   }
   .refundText{
     margin-top: .7rem;
+    margin-left: .5rem;
   }
   .supportText{
-    width: 120%;
+    /* width: 120%; */
     margin-top: .7rem;
+    margin-left: .5rem;
   }
   .shippingText{
-    width: 120%;
+    /* width: 120%; */
     margin-top: .7rem;
+    margin-left: .5rem;
   }
