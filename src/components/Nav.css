@@ -131,3 +131,12 @@
     margin-top: .7rem;
     margin-left: .5rem;
   }
+  #home{
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:  #f3f6ff;
+    cursor: pointer;
+
+  }

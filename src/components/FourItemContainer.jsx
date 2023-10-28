@@ -9,20 +9,21 @@ import largeglassbox from '../assets/largeglassbox.svg';
 import wirebasket from '../assets/wirebasket.svg';
 import decor from '../assets/decor.svg';
 const product="/productpage"
+const product1="/productpage1"
 function FourItemContainer() {
   return (
     <>
     <div className='fourItemsContainer'>
        <div><HoverItem img={linenTowel} text="Linen Towel" link={product}/></div>
-       <div><HoverItem img={glassbox} text="Glass Box"/></div>
-       <div><HoverItem img={ceramicplate} text="Ceramic Plate"/></div>
-       <div><HoverItem img={pillocase} text="Pillo Case"/></div>
+       <div><HoverItem img={glassbox} text="Glass Box"link={product1}/></div>
+       <div><HoverItem img={ceramicplate} text="Ceramic Plate"link={product} /></div>
+       <div><HoverItem img={pillocase} text="Pillo Case"link={product1}/></div>
     </div>
     <div className='fourItemsContainer'>
-       <div><HoverItem img={bohochic} text="Boho Chic"/></div>
-       <div><HoverItem img={largeglassbox} text="Large Glass Box"/></div>
-       <div><HoverItem img={wirebasket} text="WireBasket"/></div>
-       <div><HoverItem img={decor} text="Decor"/></div>
+       <div><HoverItem img={bohochic} text="Boho Chic"link={product}/></div>
+       <div><HoverItem img={largeglassbox} text="Large Glass Box"link={product1}/></div>
+       <div><HoverItem img={wirebasket} text="WireBasket"link={product}/></div>
+       <div><HoverItem img={decor} text="Decor"link={product1}/></div>
     </div>
     
     </>

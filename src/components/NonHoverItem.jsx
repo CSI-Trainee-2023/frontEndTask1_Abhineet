@@ -13,9 +13,9 @@ function NonHoverItem() {
             <div className='headtext'> 
             IVY VINTAGE CHAIR
             </div>
-            <Link to="/productpage">
+            {/* <Link to="/productpage"> */}
             <button id='viewDetail'>VIEW DETAILS </button>
-            </Link>
+            {/* </Link> */}
         </div>
       </div>
     </div>

@@ -4,10 +4,7 @@ import googleFonts from 'google-fonts';
 import logo from '../assets/logo.svg';
 import cart from '../assets/cart.svg';
 import profile from '../assets/profile.svg';
-import search from '../assets/search.svg';
-import truck from '../assets/truck.svg';
-import refund from '../assets/refund.svg';
-import support from '../assets/support.svg';
+import { Link } from 'react-router-dom';
 
 googleFonts.add({ Roboto: ['300', '400', '700'] });
 const Navbar = () => {
@@ -27,7 +24,11 @@ const Navbar = () => {
 
         <div className="navbar-box">
             <ul className='navbar-items' >
-            <li>  HOME</li>
+            <li>
+            <Link to="/ ">
+                 <button id='home'>HOME</button>
+            </Link>
+             </li>
             <li> STORE</li>
             <li> ACCESSORIES </li>
             <li> BRAND</li>
@@ -37,30 +38,7 @@ const Navbar = () => {
             <li> CONTACT US</li>
             </ul>
         </div>
-        {/* <div className="container">
-            <div className='searchBar'>
-                <div className="textSpace">
-                <img src={search}  />
-                <input type="text"/>
-                </div>
-            </div>
-            <button id="search">Search</button>
-        </div>
-        <div className='info'>
-            <div className='shipping'>
-                <img src={truck}  />
-                <div className="shippingText">FREE SHIPPING</div>
-            </div>
-            <div className="shipping">
-                <img src={refund}  />
-                <div className="refundText">100% REFUND</div>
-            </div>
-            <div className="shipping">
-                <img src={support}  />
-                <div className="supportText">SUPPORT 24/7</div>
-            </div>
-            
-        </div> */}
+        
     </div>
     </>
   )
