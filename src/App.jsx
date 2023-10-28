@@ -1,27 +1,11 @@
-// import { useState } from 'react'
-
-// import Navbar from './components/Navbar.jsx'
-import Navbar from './components/Nav.jsx';
-import Foot from './components/Foot.jsx';
-import NonHoverItem from './components/NonHoverItem.jsx';
-import HoverItem from './components/HoverItem.jsx';
-import FourItemContainer from './components/FourItemContainer.jsx';
-import BedSheetSet from './components/BedSheetSet.jsx';
-import ImageSlider from './components/slider.jsx';
-import TopRating from './components/TopRating.jsx';
+import React from 'react'
+import Home from './Home.jsx'
+import { Outlet } from 'react-router-dom'
 function App() {
-
-
   return (
-    <>
-    <Navbar/>
-    <ImageSlider/>
-    <NonHoverItem/>
-    <FourItemContainer/>
-    <BedSheetSet/>
-    <TopRating/>
-    <Foot/>
-    </>
+    <div>
+      <Outlet/>
+    </div>
   )
 }
 

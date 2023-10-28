@@ -8,12 +8,12 @@ import bohochic from '../assets/bohochic.svg';
 import largeglassbox from '../assets/largeglassbox.svg';
 import wirebasket from '../assets/wirebasket.svg';
 import decor from '../assets/decor.svg';
-
+const product="/productpage"
 function FourItemContainer() {
   return (
     <>
     <div className='fourItemsContainer'>
-       <div><HoverItem img={linenTowel} text="Linen Towel"/></div>
+       <div><HoverItem img={linenTowel} text="Linen Towel" link={product}/></div>
        <div><HoverItem img={glassbox} text="Glass Box"/></div>
        <div><HoverItem img={ceramicplate} text="Ceramic Plate"/></div>
        <div><HoverItem img={pillocase} text="Pillo Case"/></div>

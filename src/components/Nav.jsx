@@ -37,7 +37,7 @@ const Navbar = () => {
             <li> CONTACT US</li>
             </ul>
         </div>
-        <div className="container">
+        {/* <div className="container">
             <div className='searchBar'>
                 <div className="textSpace">
                 <img src={search}  />
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <div className="supportText">SUPPORT 24/7</div>
             </div>
             
-        </div>
+        </div> */}
     </div>
     </>
   )

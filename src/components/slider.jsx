@@ -3,6 +3,8 @@ import '../index.css'
 import 'react-slideshow-image/dist/styles.css'
 import { Slide,Fade } from 'react-slideshow-image'
 import slideImg1 from '../assets/slideImg1.svg'
+import slideImg2 from '../assets/napkin.svg'
+import slideImg3 from '../assets/ceramiccup.svg'
 
 const slides = [
     <div className="chair-content" key={1}>
@@ -21,8 +23,8 @@ const slides = [
        </div>
       </div>
     </div>,
-    <div className="chair-content" key={2}>
-        <div><img src={slideImg1} style={{ width: 450}}/></div>
+    <div className="napkin-content" key={2}>
+        <div><img src={slideImg2} style={{ }}/></div>
         <div className='chair-content2'>
        <div className="headtext2">
         <p>Hot Deals This Week</p>
@@ -36,8 +38,8 @@ const slides = [
       </div>
       
     </div>,
-       <div className="chair-content" key={3}>
-       <div><img src={slideImg1} style={{ width:450 }}/></div>
+       <div className="cup-content" key={3}>
+       <div><img src={slideImg3} style={{  }}/></div>
        <div className='chair-content2'>
        <div className="headtext2">
         <p>Hot Deals This Week</p>

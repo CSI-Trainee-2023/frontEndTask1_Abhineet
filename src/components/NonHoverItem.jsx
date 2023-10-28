@@ -1,6 +1,7 @@
 import React from 'react'
 import vintageChair from '../assets/vintageChair1.jpg';
 import vase from '../assets/terracottaVase1.jpg';
+import { Link } from 'react-router-dom';
 function NonHoverItem() {
   return (
     <>
@@ -12,7 +13,9 @@ function NonHoverItem() {
             <div className='headtext'> 
             IVY VINTAGE CHAIR
             </div>
+            <Link to="/productpage">
             <button id='viewDetail'>VIEW DETAILS </button>
+            </Link>
         </div>
       </div>
     </div>
