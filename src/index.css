@@ -105,3 +105,90 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.bedsheetContainer{
+  
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+.bedsheetImg{
+  position: relative; 
+  z-index: 1; 
+  margin: 0;
+  padding: 0;
+  height: 120%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bedsheetText{ 
+  position:absolute;
+
+    top: 0;
+    left: 0;
+    padding: 5.5rem;
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #F9D370CC;
+    margin-left: 20rem;
+    margin-top: 7rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    
+    
+}
+.headtext2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+}
+.chair-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #F9D370CC;
+}
+.headtext2{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #323334;
+}
+.Sale{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: #A86A3D;
+}
+.topratingcardtext{
+  display: flex;
+  flex-wrap: wrap;
+}
+.topratingcardcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.topratingcardtext{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.topratingcard{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+.headtext3{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #323334;
+    margin: 2rem;
+}

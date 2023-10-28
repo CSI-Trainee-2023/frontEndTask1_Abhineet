@@ -3,19 +3,23 @@
 // import Navbar from './components/Navbar.jsx'
 import Navbar from './components/Nav.jsx';
 import Foot from './components/Foot.jsx';
-import SlideImage from './components/slideImage.jsx';
 import NonHoverItem from './components/NonHoverItem.jsx';
 import HoverItem from './components/HoverItem.jsx';
 import FourItemContainer from './components/FourItemContainer.jsx';
+import BedSheetSet from './components/BedSheetSet.jsx';
+import ImageSlider from './components/slider.jsx';
+import TopRating from './components/TopRating.jsx';
 function App() {
 
 
   return (
     <>
     <Navbar/>
-    <SlideImage/>
+    <ImageSlider/>
     <NonHoverItem/>
     <FourItemContainer/>
+    <BedSheetSet/>
+    <TopRating/>
     <Foot/>
     </>
   )
