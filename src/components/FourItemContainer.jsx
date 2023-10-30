@@ -15,15 +15,15 @@ function FourItemContainer() {
     <>
     <div className='fourItemsContainer'>
        <div><HoverItem img={linenTowel} text="Linen Towel" link={product}/></div>
-       <div><HoverItem img={glassbox} text="Glass Box"link={product1}/></div>
-       <div><HoverItem img={ceramicplate} text="Ceramic Plate"link={product} /></div>
-       <div><HoverItem img={pillocase} text="Pillo Case"link={product1}/></div>
+       <div><HoverItem img={glassbox} text="Glass Box" link={product}/></div>
+       <div><HoverItem img={ceramicplate} text="Ceramic Plate" link={product} /></div>
+       <div><HoverItem img={pillocase} text="Pillo Case" link={product}/></div>
     </div>
     <div className='fourItemsContainer'>
-       <div><HoverItem img={bohochic} text="Boho Chic"link={product}/></div>
-       <div><HoverItem img={largeglassbox} text="Large Glass Box"link={product1}/></div>
+       <div><HoverItem img={bohochic} text="Boho Chic" link={product}/></div>
+       <div><HoverItem img={largeglassbox} text="Large Glass Box"link={product}/></div>
        <div><HoverItem img={wirebasket} text="WireBasket"link={product}/></div>
-       <div><HoverItem img={decor} text="Decor"link={product1}/></div>
+       <div><HoverItem img={decor} text="Decor"link={product}/></div>
     </div>
     
     </>

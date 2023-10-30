@@ -8,7 +8,9 @@ function NonHoverItem() {
     <div className='info'>
     <div className='nonHItemContainer'>
       <div className="vintageChair">
+        <div>
         <img width='200rem' src={vintageChair}/>
+        </div>
         <div className='vintageChairText'>
             <div className='headtext'> 
             IVY VINTAGE CHAIR
@@ -21,7 +23,9 @@ function NonHoverItem() {
     </div>
     <div className='nonHItemContainer'>
       <div className="terracotta">
+        <div>
         <img width='200rem' src={vase}/>
+        </div>
         <div className='vintageChairText'>
             <div className='headtext'> 
             TERRACOTTA VASE

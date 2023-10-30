@@ -4,7 +4,7 @@ import star from '../assets/star.svg';
 function TopRatingCard(props) {
   return (
     <div className='topratingcardcontainer'>
-      <img src={props.img}/>
+      <img width='250vw' src={props.img} />
       <div className="topratingcardtext">
         <div className="topratingname">{props.text}</div>
         <div><img src={star}/></div>
