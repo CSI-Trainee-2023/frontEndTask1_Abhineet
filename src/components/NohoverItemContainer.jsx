@@ -10,8 +10,8 @@ function NohoverItemContainer(props) {
   }
   return (
     <div className='bigCont'>
-      <img id='linenTowel' src={props.img}/>
-      <div className="textoverlay">
+      <img id='linenTowel' src={props.img}  />
+      <div className="textoverlay" >
       <div className="headtext1">{props.text}</div>
       <div>Lorem ipsum, dolor sit amet<br></br> consectetur  adipisicing elit. </div>
       <Link to={props.link}>

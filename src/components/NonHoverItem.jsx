@@ -6,7 +6,7 @@ function NonHoverItem() {
   return (
     <>
     <div className='info'>
-    <div className='nonHItemContainer'>
+    {/* <div className='nonHItemContainer'> */}
       <div className="vintageChair">
         <div>
         <img width='200rem' src={vintageChair}/>
@@ -19,9 +19,9 @@ function NonHoverItem() {
             <button id='viewDetail'>VIEW DETAILS </button>
             {/* </Link> */}
         </div>
-      </div>
+      {/* </div> */}
     </div>
-    <div className='nonHItemContainer'>
+    {/* <div className='nonHItemContainer'> */}
       <div className="terracotta">
         <div>
         <img width='200rem' src={vase}/>
@@ -33,7 +33,7 @@ function NonHoverItem() {
             <button id='viewDetail'>VIEW DETAILS </button>
         </div>
       </div>
-    </div>
+    {/* </div> */}
     </div>
     </>
   )
