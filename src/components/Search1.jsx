@@ -5,7 +5,7 @@ import truck from '../assets/truck.svg';
 import refund from '../assets/refund.svg';
 import support from '../assets/support.svg';
 
-function Search() {
+function Search1() {
   return (
     <div>
         <div className="container">
@@ -37,4 +37,4 @@ function Search() {
   )
 }
 
-export default Search
+export default Search1

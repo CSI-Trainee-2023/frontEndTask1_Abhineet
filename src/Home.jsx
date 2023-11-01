@@ -9,7 +9,7 @@ import FourItemContainer from './components/FourItemContainer.jsx';
 import BedSheetSet from './components/BedSheetSet.jsx';
 import ImageSlider from './components/slider.jsx';
 import TopRating from './components/TopRating.jsx';
-import Search from './components/search.jsx';
+import Search from './components/Search1.jsx';
 
 function Home() {
 
