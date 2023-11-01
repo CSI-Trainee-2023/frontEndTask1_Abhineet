@@ -5,7 +5,12 @@ import logo from '../assets/logo.svg';
 import cart from '../assets/cart.svg';
 import profile from '../assets/profile.svg';
 import { Link } from 'react-router-dom';
-
+const HamburgerMenu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+}
+const toggleMenu = () => {
+  setIsOpen(!isOpen);
+};
 googleFonts.add({ Roboto: ['300', '400', '700'] });
 const Navbar = () => {
   return (

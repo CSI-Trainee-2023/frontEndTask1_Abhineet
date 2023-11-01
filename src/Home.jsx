@@ -10,6 +10,7 @@ import BedSheetSet from './components/BedSheetSet.jsx';
 import ImageSlider from './components/slider.jsx';
 import TopRating from './components/TopRating.jsx';
 import Search from './components/search.jsx';
+
 function Home() {
 
 
