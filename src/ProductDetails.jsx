@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Navbar from './components/Nav'
 import Foot from './components/Foot'
 import linenTowel from './assets/linenTowel.svg';
-import { currentData } from './components/nohoverItemContainer';
+import { currentData } from './components/NohoverItemContainer1';
 function ProductDetails(props) {
   useEffect(()=>{
     console.log(currentData);
