@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const produc1="/"
 export let currentData= {};
-function NohoverItemContainer(props) {
+function NohoverItemContainer1(props) {
   const currentProduct=()=>{
       currentData= props;
   }
@@ -22,4 +22,4 @@ function NohoverItemContainer(props) {
   )
 }
 
-export default NohoverItemContainer
+export default NohoverItemContainer1
