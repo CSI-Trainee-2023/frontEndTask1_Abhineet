@@ -3,10 +3,15 @@ import Navbar from './components/Nav'
 import Foot from './components/Foot'
 import linenTowel from './assets/linenTowel.svg';
 import { currentData } from './components/NohoverItemContainer1';
+import { Link } from 'react-router-dom';
+export let products=[];
 function ProductDetails(props) {
   useEffect(()=>{
     console.log(currentData);
   },[])
+  const cartFunction =() => {
+    products.push(currentData);
+  }
   return (
     <>
       <Navbar/>
@@ -29,7 +34,7 @@ function ProductDetails(props) {
             <option value="5">5</option>
             </select>
             <div>
-            <button id='cart'> ADD TO CART</button>
+            <Link to='cart'><button id='cart' onClick={cartFunction}> ADD TO CART</button></Link>
             </div>
         </div>
       </div>

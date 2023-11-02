@@ -3,7 +3,7 @@
     padding: 0%;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #0a032a;
     color: white;
@@ -38,4 +38,12 @@
     gap: 5vw;
     margin-top: 2em;
 
+}
+@media screen and (max-width: 500px) {
+    .brandnametext{
+        display: none;
+    }
+    .footContainer{
+        justify-content: center;
+    }
 }

@@ -18,6 +18,7 @@ function Home() {
     <>
     <Navbar/>
     <Search/>
+    <br></br>
     <ImageSlider/>
     <NonHoverItem/>
     <FourItemContainer/>

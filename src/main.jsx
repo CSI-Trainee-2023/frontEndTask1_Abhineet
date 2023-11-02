@@ -6,11 +6,13 @@ import Home from './Home.jsx'
 import ProductDetails from './ProductDetails'
 import App from './App'
 import ProductDetails1 from './ProductDetails1'
+import Cart from './components/Cart'
 const router=createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>} >
     <Route path='' element={<Home/>}/>
   <Route path='productpage' element={<ProductDetails/>}/>
   <Route path='productpage1' element={<ProductDetails1/>}/>
+  <Route path='productpage/cart' element={<Cart/>}/>
   </Route>
 ))
 ReactDOM.createRoot(document.getElementById('root')).render(
