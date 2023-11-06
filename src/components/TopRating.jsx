@@ -13,7 +13,7 @@ function TopRating() {
       <div className="topratingcard">
         <TopRatingCard img={tray} text="Tray with foot"/>
         <TopRatingCard img={cusion} text="Tray with cusion"/>
-        <TopRatingCard img={fluted} text="Fluted Glass Beverage"/>
+        <TopRatingCard img={fluted} text="Fluted Glass "/>
         </div>
         <div className="topratingcard">
         <TopRatingCard img={eggcup} text="Ceremic Egg Cup"/>

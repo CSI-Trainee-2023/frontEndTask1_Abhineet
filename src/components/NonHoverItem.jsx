@@ -28,7 +28,7 @@ function NonHoverItem() {
         </div>
         <div className='vintageChairText'>
             <div className='headtext'> 
-            TERRACOTTA VASE
+            TERA COTA VASE
             </div>
             <button id='viewDetail'>VIEW DETAILS </button>
         </div>
